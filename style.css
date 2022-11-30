@@ -4,36 +4,41 @@
 }
 .main{
     margin: 0 auto;
-    border: 1px solid green;
+    border: 1px solid white;
     width: 1300px;
-    height: 4400px;
+    height: 3900px;
 }
 .landing{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     height: 700px; 
 }
 .menu-of-pizzas{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 100%;
     height: 1900px; 
 }
 footer{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 100%;
-    height: 1400px;
+    height: 750px;
+}
+.contacts{
+    width: 1142px;
+    height: 160px;
+    /* border: lid red; */
 }
 .row{
     width: 1000px;
     margin: 0 auto;
-    border: 2px solid violet;
-    height: 4400px;
+    /* border: 2px solid violet;     */
+    height: 750px;
 }
 .landing{
     background-image:  url("pizza.png"),url("stars.jpg");
     background-repeat: no-repeat;
-    background-size:  40% 30%, 100% 100%;
-    background-position: 600px 300px, 0px 0px;
+    background-size:  40% 40%, 100% 100%;
+    background-position: 600px 270px, 0px 0px;
 }
 .landing-ul{
     list-style: none;
@@ -72,7 +77,10 @@ footer{
     
 }
 .basket{
-    margin-right: 20px;
+    margin-right: -37px;
+    position: relative;
+    
+    
 }
 .text, .text1{
     color: white;
@@ -108,6 +116,8 @@ footer{
     height: 67px;
     border-radius: 26px;
     background-color: #E79912;}
+
+
     
     
 
@@ -220,6 +230,10 @@ a{
  }
 .menu li a{
     color: #00000085;
+    font-weight: 700;
+}
+.menu li{
+    transition: all 0.4s;
 }
 .menu .menu-pizza{
     color: #E85F0C;
@@ -297,14 +311,131 @@ a{
 }
 .text2{
     font-size: 22px;
-    line-height: 130%;
-    margin-top: 10%;
+    line-height: 40px;
+    margin-top: 40px;
     width: 1000px;
     font-weight: 500;
    
 }
 .photo{
     width: 100%;
+    margin-top: 40px;
+}
+footer{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.h3{
+    color: white;
+    font-size: 70px;
+    margin-top: 90px;
+}
+.container-footer{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 58px;
     margin-top: 100px;
 }
+.alarm-black{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.text4{
+   text-align: center;
+   margin-top: 10px;
+}
+
+.wrap{
+    display: flex;
+     justify-content: space-around;
+}
+.h22{
+    margin-top: 45px;
+}
+.map{
+    width: 70%;
+    float: left;
+    height: 400px;
+}
+.contact{
+    width: 30%;
+    height: 400px;
+    background-color: #E85F0C;
+    float: left;
+}
+.row2{
+    width: 300px;
+    margin: 0 auto;
+}
+.location-footer{
+    margin-top: 50px;
+}
+.adres{
+    color: white;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+.city-footer{
+    color: white;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+.adres2{
+    margin-top: 40px;
+}
+.adres3{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.tel{
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.insta{
+    margin-right: 30px;
+}
+a, div, p{
+    font-family: Montserrat;
+}
+.landing-ul .menyu{
+    color: #E79912;
+}
+.circle-white{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #E85F0C;
+    font-size: 8px;
+    text-align: center;
+    
+}
+.landing-ul li a:hover{
+    color: #E79912;
+
+}
+.menu li a:hover{
+    color: #E85F0C;
+    
+
+}
+.menu li:hover{
+    transform: translate(15px);
+}
+.pizza1:hover{
+    transform: scale(1.3);
+    
+
+}
+
 
